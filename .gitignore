@@ -1,0 +1,63 @@
+# =========================
+# Python / Django
+# =========================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+*.mo
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+
+# Migrations (optional, track only __init__.py)
+*/migrations/*.py
+!*/migrations/__init__.py
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+venv/
+env/
+
+# =========================
+# Node / Frontend (Next.js & React Native)
+# =========================
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Expo / React Native
+.expo/
+.expo-shared/
+*.expo
+
+# =========================
+# IDEs / Editors
+# =========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# =========================
+# macOS
+# =========================
+.DS_Store
+
+# =========================
+# Logs & Temporary files
+# =========================
+*.log
+*.tmp
+*.swp
+*.bak
